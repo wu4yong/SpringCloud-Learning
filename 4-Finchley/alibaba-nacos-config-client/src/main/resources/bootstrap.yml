@@ -1,0 +1,12 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: nacos-config
+  cloud:
+    nacos:
+      config: #配置中心
+        server-addr: 120.77.236.193:8848
+        enabled: true
+        file-extension: yml
+        group: DEFAULT_GROUP
